@@ -7,6 +7,7 @@ node-1
 kubeadm init --pod-network-cidr=10.244.0.0/16 --apiserver-advertise-address=172.16.20.11
 ```
 
+flannel
 ```
 kubectl apply -f kube-flannel.yml
 ```
